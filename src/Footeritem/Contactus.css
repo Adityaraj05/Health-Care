@@ -440,7 +440,13 @@ color: white;
 
     }
     .container-1 .contactForm {
-        padding: 50px 30px;
+        padding: 62px;
+        padding-right: 262px;
+    }
+    .container-1 .contactForm .inputBox input,
+.container-1 .contactForm .inputBox textarea
+   {
+        width:200px;
     }
 
 }
