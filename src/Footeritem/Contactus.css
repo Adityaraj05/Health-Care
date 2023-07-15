@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.getintouch_main{
+    height: 700px;
+    background-color: red;
+    position: relative;
+}
+.getintouch{
+    text-align: center;
+    padding: 30px 30px;
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 50px;
+}
+.contactus_main{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    width: 100%;
+}
+.address_main{
+    height: 500px;
+    width: 340px;
+    position: relative;
+    display: inline-block;
+}
+.address{
+    position: absolute;
+    left: 25%;
+    color: white;
+    top: 21%;
+}
+.address_content{
+    position: absolute;
+    top: 29%;
+    text-align: center;
+    left: 21%;
+    margin-top: 3%;
+    color: white;
+}
+.logo_1{
+    height: 100px;
+}
+.icon_1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 32%;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+.all_icon{
+    position: relative;
+    left: 23%;
+    top: 24%;
+    color: white;
+}
+.phone_box{
+    height: 500px;
+    width: 340px;
+    position: relative;
+    display: inline-block;
+}
+.phone{
+    position: absolute;
+    left: 31%;
+    color: white;
+    top: 21%;
+}
+.phone_content{
+position: absolute;
+top: 29%;
+text-align: center;
+left: 21%;
+margin-top: 3%;
+color: white;
+}
+
+.email_box{
+    height: 500px;
+    width: 340px;
+    position: relative;
+    display: inline-block;
+}
+
+.email_icon{
+    position: absolute;
+    left: 33%;
+    color: white;
+    top: 21%;
+}
+
+.email_content{
+    position: absolute;
+    top: 29%;
+    text-align: center;
+    text-align: center;
+    left: 18%;
+    margin-top: 3%;
+    color: white;
+}
+
+.contactus_main{
+    position: relative;
+    margin-top: 30px;
+    height: 600px;
+}
+.contactus_msg{
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+    padding-left: 0px;
+}
+.contactus_msg_1{
+    margin-top: 3%;
+}
+.contactus_msg_2{
+    margin-top: 5%;
+}
+.contactus_msg_3{
+    word-spacing: 4px;
+    text-align: left;
+    font-size: 20px;
+}
+
+@media (max-width:500px) {
+    .getintouch_main{
+        height: 1810px;
+
+    }
+
+    .address_main{
+        width: 100%;
+        left: unset;
+    }
+
+    .phone_box{
+        width: 100%;
+        left: unset;
+    }
+
+    .email_box{
+        width: 100%;
+        left: unset;
+    }
+
+    .contactus_main{
+        display: block;
+        height: 1300px;
+    }
+
+    .contactus_msg_1{
+        margin-left: 20px;
+    }
+
+    .contactus_msg_2{
+        margin: 15px;
+    }
+
+    .address{
+        left: 31%;
+    }
+
+    .phone{
+        left: 35%;
+    }
+
+    .email_icon{
+        left: 37%;
+    }
+    
+    .email_content{
+        left: 22%;
+    }
+
+    .phone_content{
+        left: 26%;
+    }
+
+    .address_content{
+        left: 26%;
+    }
+}
+
+@media (min-width:500px) and (max-width:1024px){
+
+    .getintouch_main{
+        height: 1680px;
+    }
+
+    .getintouch{
+        margin-left: -6%;
+    }
+
+    .address_main{
+        width: 100%;
+        display: block;
+        left: 0%;
+    }
+    .icon_1{
+        margin-left: 5%;
+    }
+
+    .address{
+        left: 36%;
+    }
+
+    .address_content{
+        left: 33%;
+    }
+
+    .phone_box{
+        width: 100%;
+        display: block;
+        left: 0%;
+    }
+
+    .phone{
+        left: 37%;
+    }
+
+    .phone_content{
+        left: 32%;
+    }
+
+    .email_box{
+        width: 100%;
+        display: block;
+        left: 0%;
+    }
+
+    .email_icon{
+        left: 37%;
+    }
+
+    .email_content{
+        left: 29%;
+    }
+
+    .contactus_main{
+        display: block;
+    }
+
+    
+}

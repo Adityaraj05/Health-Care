@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.emergency_contact{
+    background:linear-gradient(45deg,rgb(195 110 175), rgb(69 5 115));
+    height: 100px;
+    width: 50%;
+    display: block;
+    position: relative;
+    border-radius: 56px;
+    float: right;
+}
+
+.emergency_section{
+    position:relative;
+    width:100%;
+    height:50vh;
+    left: 5px;
+
+}
+
+.emergency_section:before{content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(90deg,rgb(195 110 175), rgb(69 5 115));
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    transform:scaleX(1.5); 
+}
+
+.emergency_contact_a{
+    background:linear-gradient(190deg,rgb(195 110 175), rgb(69 5 115));
+    height: 100px;
+    width: 50%;
+    display: block;
+    position: relative;
+    border-radius: 56px
+}
+
+.emergency_heading{
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+.Ambulance_main{
+    height: 100px;
+    margin-top: 60px;
+}
+.Ambulance{
+    position: absolute;
+    left: 126px;
+    top: 29px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.call_logo{
+    border: 5px solid white;
+    height: 82px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 11px;
+}
+
+.women_logo{
+    border: 5px solid white;
+    height: 82px;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 8px;
+    margin-left: 11px;
+    right: 2%;
+}
+.women{
+    position: relative;
+    left: 25px;
+    top: 20px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.police{
+    position: absolute;
+    left: 140px;
+    top: 25px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.fire_1{
+    position: relative;
+    left: 217px;
+    top: 29px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.disaster{
+    position: absolute;
+    left: 115px;
+    top: 13px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.ndma{
+    position: relative;
+    left: 20px;
+    top: 13px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.railway{
+    position: absolute;
+    left: 126px;
+    top: 13px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+.road_emergency{
+    background:linear-gradient(45deg,rgb(195 110 175), rgb(69 5 115));
+    height: 100px;
+    width: 56%;
+    display: block;
+    position: relative;
+    border-radius: 56px;
+    float: right;
+}
+.road{
+    position: relative;
+    left: 30px;
+    top: 13px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+@media(min-width:00px) and (max-width:500px){
+    .emergency_section{
+        display: none;
+    }
+    /* .Ambulance_main{
+        width: 100%;
+    } */
+    .emergency_contact_a{
+        width: 95%;
+        float: none;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .emergency_contact{
+        width: 95%;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
+    .women_logo{
+        left:0px
+    }
+    .road_emergency{
+        float: none;
+        width: 100%;
+    }
+    
+    .Ambulance{
+        display: inline-block;
+        top: 5px;
+        font-size: 21px;
+    }
+    .women{
+        display: inline-block;
+        left: 110px;
+        top: 9px;
+        position: absolute;
+        font-size: 20px;
+    }
+    .police{
+        display: inline-block;
+        left: 120px;
+    }
+    .fire_1{
+        display: inline-block;
+        left: 120px;
+        top: 25px;
+    }
+    .disaster{
+        display: inline-block;
+        top: 13px;
+        font-size: 20px;
+    }
+    .ndma{
+        display: inline-block;
+        left: 110px;
+        top: 10px;
+        font-size: 20px;
+        position: absolute;
+    }
+
+    .railway{
+        display: inline-block;
+        top: 5px;
+        left: 107px;
+    }
+    .road{
+        display: inline-block;
+        
+    }
+
+    .road_emergency{
+        display: none;
+    }
+
+}
+
+@media (min-width:500px) and (max-width:830px){
+     .emergency_section{
+        display: none;
+     }
+
+     .emergency_contact{
+           width: 95%;
+           float: none;
+     }
+
+     .emergency_contact_a{
+        width: 95%;
+     }
+
+     .road_emergency{
+        width: 95%;
+        float: none;
+     }
+
+     .Ambulance{
+        display: inline-block;
+        top: 20%;
+     }
+
+     .women{
+        display: inline-block;
+        font-size: 23px;
+        left: 3%;
+     }
+
+     .police{
+        display: inline-block;
+        left: 25%;
+     }
+
+     .fire_1{
+        display: inline-block;
+        top: 25%;
+    left: 50%;
+     }
+
+     .disaster{
+        display: inline-block;
+        top: 4%;
+     }
+
+     .ndma{
+        display: inline-block;
+        top: 4%;
+        left: 10%;
+     }
+
+     .railway{
+        display: inline-block;
+        top: 4%;
+        left: 21%;
+     }
+
+     .road{
+        display: inline-block;
+        left: 3%;
+    top: 1%;
+    font-size: 33px;
+     }
+
+     .women_logo{
+        right: 2%;
+        left: unset;
+     }
+    }
+
+    @media (min-width:830px) and (max-width:1024px){
+        .emergency_section{
+           display: none;
+        }
+   
+        .emergency_contact{
+              width: 95%;
+              float: none;
+        }
+   
+        .emergency_contact_a{
+           width: 95%;
+        }
+   
+        .road_emergency{
+           width: 95%;
+           float: none;
+        }
+   
+        .Ambulance{
+           display: inline-block;
+           top: 20%;
+        }
+   
+        .women{
+           display: inline-block;
+           font-size: 23px;
+           left: 3%;
+        }
+   
+        .police{
+           display: inline-block;
+           left: 25%;
+        }
+   
+        .fire_1{
+           display: inline-block;
+           top: 25%;
+       left: 50%;
+        }
+   
+        .disaster{
+           display: inline-block;
+           top: 4%;
+        }
+   
+        .ndma{
+           display: inline-block;
+           top: 4%;
+           left: 10%;
+        }
+   
+        .railway{
+           display: inline-block;
+           top: 4%;
+           left: 21%;
+        }
+   
+        .road{
+           display: inline-block;
+           left: 3%;
+       top: 1%;
+       font-size: 33px;
+        }
+   
+        .women_logo{
+           right: 2%;
+           left: unset;
+        }
+       }

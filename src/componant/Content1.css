@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.first-aid-kit{
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+    height: 550px;
+    border-radius: 15px;
+}
+
+.img_box_2{
+  width: 50%;
+  float: right;
+}
+.img_2{
+  width: 100%;
+  height: 550px;
+  border-radius: 0px 15px 15px 0px;
+}
+.text_box_2{
+  width: 50%;
+  float: left;
+}
+.text_2{
+  font-size: 20px;
+  text-align: left;
+  word-spacing: 2px;
+  justify-content: center;
+  padding-left: 20px;
+  font-family: Poppins;
+}
+
+
+@media (min-width:0px) and (max-width: 500px){
+  .first-aid-kit{
+    height: 100%;
+  }
+  .img_box_2{
+    float: none;
+    height: 425px;
+    width: 100%;
+  }
+  .text_box_2{
+    float: none;
+    display: block;
+    width: 100%;
+   
+  }
+  .img_2{
+    width: 100%;
+    height:95%;
+    float: none;
+    display: block;
+    border-radius: 15px;
+  }
+  .text_2{
+    height: 100%;
+    font-size: 14px;
+    justify-content: center;
+    padding-left: 20px;
+    word-spacing: 0px;
+  }
+}
+
+
+@media (min-width:500px) and (max-width:830px){
+    .first-aid-kit{
+       height: 100%;
+     }
+
+    .img_box_2{
+        float: none;
+        width: 100%;
+    }
+
+
+
+  .text_box_2{
+float: none;
+width: 100%;
+  }
+  
+  .img_2{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+  .first-aid-kit{
+    height: 100%;
+  }
+
+ .img_box_2{
+     float: none;
+     width: 100%;
+ }
+
+
+
+.text_box_2{
+float: none;
+width: 100%;
+}
+
+.img_2{
+ display: block;
+ width: 100%;
+}
+
+  }

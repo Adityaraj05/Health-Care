@@ -1,0 +1,643 @@
+.custom-shape-divider-top-1680709654_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: 2;
+}
+
+.custom-shape-divider-top-1680709654_1 .svg_1_curv {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 180px;
+}
+
+.custom-shape-divider-top-1680709654_1 .shape-fill_1 {
+    fill:#ffffff;
+}
+
+
+.body_11{
+    background: linear-gradient(45deg,#000428,#004e92);
+/* background: linear-gradient(rgb(195 110 175), rgb(69 5 115));  */
+    width: 100%;
+ height: 1500px;
+}
+
+.main_de_1{
+    border: 5px solid white;
+    height: 1030px;
+    position: relative;
+    top: 30%;
+}
+
+.main_symptoms{
+    width: 50%;
+    float: left;
+    height: 1000px;
+}
+.main_symptoms_img{
+    width: 80%;
+    height: 500px;
+    position: relative;
+    left: 10%;
+    top: 13%;
+}
+.main_symptoms_img_1{
+    height: 500px;
+    width: 100%;
+    border-radius: 15px;
+}
+.main_solution{
+    width: 50%;
+    float: right;
+    height: 700px;
+}
+
+.main_solution_ul{
+    font-size: 23px;
+    color: white;
+    word-spacing: 6px;
+}
+
+.main_solution_h1{
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+  }
+
+  .design {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 6px;
+    box-shadow: 0px 8px 12px rgba(2, 30, 84, .06);
+    padding: 11px 12px 10px 17px;
+    width: 243px;
+    height: 68px;
+    margin-bottom: 10px;
+  }
+
+  .center-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  a{
+    text-decoration: none;
+    color:black;
+  }
+
+/* .place-box{
+    border: 0.1px solid rgb(189, 187, 187);
+    width: 250px;
+    height: 79px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.place-box:hover{
+    box-shadow: 0px 0px 20px 0px rgba(216, 192, 192, 0.378);
+} 
+
+.button_group{
+    margin-top: 200px;
+    width: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.check-other{
+    width: 50%;
+} */
+
+.check-other{
+    width: 42%;
+    margin-bottom: 63px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.disease-2{
+    display: flex;
+    justify-content:space-around;
+    background-color: #d1e7ff;
+    margin-top: 60px;
+}
+
+.solution-video{
+    width:40% ;
+    height:350px;
+    margin-top:75px;
+}
+
+.ratio-16x9 {
+    --bs-aspect-ratio: 66.25%;
+}
+
+.center-btn button{
+    padding-top:20px;
+    padding-left:40px;
+}
+
+.heading_de_fever{
+    position: absolute;
+    left: 42%;
+    top: 17%;
+    font-size: 80px;
+    color: #004e92;
+}
+.heading_de_cold{
+    position: absolute;
+    left: 29%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_malaria{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_cholera{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_covid{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_conjunctivitis{
+    position: absolute;
+    left: 34%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_dengue{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_strep{
+    position: absolute;
+    left: 36%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_stomach{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+
+.heading_de_drowing{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+
+.heading_de_swelling{
+    position: absolute;
+    left: 39%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_tuberculosis{
+    position: absolute;
+    left: 37%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+
+.heading_de_pneumonia{
+    position: absolute;
+    left: 36%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_choking{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+ 
+}
+.heading_de_asthma{
+    position: absolute;
+    left: 40%;
+    top: 17%;
+    font-size: 80px;
+        color: #004e92;
+
+ 
+}
+
+
+
+@media (min-width:0px) and (max-width:500px){
+    .body_11{
+    
+         width: 96%;
+         height: 80%;
+        margin-left: 2%;
+        
+    }
+    .main_de_1{
+        top: 10%;
+        height: 2500px;
+    }
+   
+    .main_symptoms{
+        display: block;
+        width: 100%;
+        height: 47%;
+        top: 9%;
+        position: relative;
+    }
+    .main_solution{
+        display: block;
+        width: 100%;
+        height: 53%;
+    }
+    .heading_de_fever {
+      left: 25%;
+    }
+
+    .heading_de_cold{
+        left: 7%;
+        top: 35%;
+        font-size: 36px;
+    }
+
+    .heading_de_malaria{
+        left: 25%;
+        font-size: 55px;
+    }
+
+    .heading_de_cholera{
+        left: 29%;
+        font-size: 50px;
+    
+    }
+
+    .heading_de_covid{
+        left: 21%;
+        font-size: 50px;
+    }
+
+    .heading_de_conjunctivitis{
+        left: 8%;
+        font-size: 50px;
+    }
+
+    .heading_de_dengue{
+        left: 30%;
+        font-size: 50px;
+    }
+
+    .heading_de_strep{
+        left: 16%;
+        font-size: 50px;
+    }
+
+    .heading_de_stomach{
+        left: 16%;
+        font-size: 50px;
+    }
+
+    .heading_de_asthma{
+        left: 30%;
+        font-size: 50px;
+    }
+
+    .heading_de_choking{
+        left: 26%;
+        font-size: 50px;
+    }
+
+    .heading_de_pneumonia{
+        left: 13%;
+        font-size: 50px;
+    }
+
+    .heading_de_tuberculosis{
+        left: 12%;
+        font-size: 50px;
+    }
+
+    .heading_de_swelling{
+        left: 27%;
+        font-size: 50px;
+    }
+
+    .heading_de_drowing{
+        left: 18%;
+        font-size: 50px;
+    }
+
+    .disease-2{
+        display: block;
+    }
+
+    .check-other{
+        width: 100%;
+    }
+
+    .solution-video{
+        width: 100%;
+    }
+}
+
+@media (min-width:500px) and (max-width:830px){
+    .body_11{
+    
+         width: 96%;
+         height: 2100px;
+        margin-left: 2%;
+        
+    }
+    .main_de_1{
+        top: 10%;
+        height: 1800px;
+    }
+   
+    .main_symptoms{
+        display: block;
+        width: 100%;
+    
+        top: 9%;
+        position: relative;
+    }
+    .main_solution{
+        display: block;
+        width: 100%;
+        height: 53%;
+    }
+    .heading_de_fever{
+        left: 35%;
+        position: absolute;
+    }
+  
+      .heading_de_cold{
+          font-size: 52px;
+          left: 9%;
+      }
+  
+      .heading_de_malaria{
+  left: 25%;
+      }
+  
+      .heading_de_cholera{
+        left: 25%;
+
+      }
+  
+      .heading_de_covid{
+        left: 17%;
+      }
+  
+      .heading_de_conjunctivitis{
+        left: 12%;
+        font-size: 68px;
+      }
+  
+      .heading_de_dengue{
+  left: 25%;
+      }
+  
+      .heading_de_strep{
+        left: 17%;
+        font-size: 66px;
+      }
+  
+      .heading_de_stomach{
+        left: 17%;
+        font-size: 66px;
+      }
+  
+      .heading_de_asthma{
+  left: 28%;
+      }
+  
+      .heading_de_choking{
+left: 28%;
+      }
+  
+      .heading_de_pneumonia{
+        left: 24%;
+        font-size: 70px;
+      }
+  
+      .heading_de_tuberculosis{
+        left: 15%;
+        font-size: 70px;
+      }
+  
+      .heading_de_swelling{
+  left: 25%;
+      }
+  
+      .heading_de_drowing{
+          left: 17%;
+      }
+
+      .disease-2{
+        display: block;
+    }
+
+    .check-other{
+        width: 100%;
+    }
+
+    .sidebox{
+        justify-content: space-around;
+
+    }
+
+    .solution-video{
+        width: 92%;
+        height: 100%;
+        margin: 4%;
+    }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+
+    .body_11{
+    
+        width: 96%;
+        height: 2100px;
+       margin-left: 2%;
+       
+   }
+   .main_de_1{
+       top: 10%;
+       height: 1800px;
+   }
+  
+   .main_symptoms{
+       display: block;
+       width: 100%;
+   
+       top: 9%;
+       position: relative;
+   }
+   .main_solution{
+       display: block;
+       width: 100%;
+       height: 53%;
+   }
+   .heading_de_fever{
+    left: 35%;
+    position: absolute;
+}
+
+  .heading_de_cold{
+      font-size: 52px;
+      left: 20%;
+  }
+
+  .heading_de_malaria{
+left: 33%;
+  }
+
+  .heading_de_cholera{
+    left: 33%;
+
+  }
+
+  .heading_de_covid{
+    left: 17%;
+  }
+
+  .heading_de_conjunctivitis{
+    left: 23%;
+    font-size: 68px;
+  }
+
+  .heading_de_dengue{
+left: 33%;
+  }
+
+  .heading_de_strep{
+    left: 25%;
+    font-size: 66px;
+  }
+
+  .heading_de_stomach{
+    left: 25%;
+    font-size: 66px;
+  }
+
+  .heading_de_asthma{
+left: 31%;
+  }
+
+  .heading_de_choking{
+left: 31%;
+  }
+
+  .heading_de_pneumonia{
+    left: 26%;
+    font-size: 70px;
+  }
+
+  .heading_de_tuberculosis{
+    left: 26%;
+    font-size: 70px;
+  }
+
+  .heading_de_swelling{
+left: 33%;
+  }
+
+  .heading_de_drowing{
+      left: 28%;
+  }
+  
+
+
+
+.disease-2{
+    display: block;
+}
+
+.check-other{
+    width: 100%;
+}
+
+.sidebox{
+    justify-content: space-around;
+
+}
+
+.solution-video{
+    width: 92%;
+    height: 100%;
+    margin: 4%;
+}
+
+}
+
+@media(orientation:landscape) and (max-height:500px){
+        .body_11{
+            height: 1460px;
+        }
+        .main_de_1{
+            height: 1205px;
+        }
+       .main_symptoms_img{
+        top: 35%;
+       }
+       .main_de_1{
+        top: 15%;
+       }
+}

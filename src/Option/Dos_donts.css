@@ -1,0 +1,607 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.earthquake_main{
+    height: 460px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+ 
+}
+.earthquake_main_1{
+    width: 50%;
+    float: left;
+}
+
+.earthquake_img{
+    width: 100%;
+    height: 460px;
+    border-radius: 2px 100px / 120px;
+}
+.earthquake_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+
+
+}
+.earthquake_content_p{
+    float: left;
+    font-size: 18px;
+    justify-content: center;
+    padding-left: 20px;
+    word-spacing: 2px;
+    font-family: Poppins;
+
+}
+
+.dobtn{
+    color:white;
+    background:rgb(80, 160, 197);
+    text-decoration: none;
+    display:inline-block;
+    padding:10px 35px;
+    border-radius: 30px;
+    margin-left: 228px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cyclone_main{
+    height: 460px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+ 
+}
+.cyclone_main_1{
+    width: 50%;
+    float: right;
+}
+.cyclone_img{
+    width: 100%;
+    height: 460px;
+    border-radius: 120px / 10px 100px;
+}
+.cyclone_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+}
+.cyclone_content_p{
+    font-size: 20px;
+    word-spacing: 2px;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: Poppins;
+
+
+}
+
+
+.floods_main{
+    height: 460px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+ 
+}
+.floods_main_1{
+    width: 50%;
+    float: left;
+}
+.floods_img{
+    width: 100%;
+    height: 460px;
+    border-radius: 2px 100px / 120px;
+}
+.floods_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+}
+.floods_content_p{
+    float: left;
+    font-size: 20px;
+    justify-content: center;
+    padding-left: 20px;
+    word-spacing: 2px;
+    font-family: Poppins;
+
+}
+
+
+
+.landslide_main{
+    height: 460px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+ 
+}
+.landslide_main_1{
+    width: 50%;
+    float: right;
+}
+.landslide_img{
+    width: 100%;
+    height: 460px;
+    border-radius: 120px / 10px 100px;
+}
+.landslide_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+}
+.landslide_content_p{
+    font-size: 18px;
+    word-spacing: 2px;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: Poppins;
+}
+
+
+
+.tsunami_main{
+    height: 490px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+ 
+}
+.tsunami_main_1{
+    width: 50%;
+    float: left;
+}
+.tsunami_img{
+    width: 100%;
+    height: 490px;
+    border-radius: 2px 100px / 120px;
+}
+.tsunami_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+}
+
+.tsunami_content_p{
+    float: left;
+    font-size: 18px;
+    justify-content: center;
+    padding-left: 20px;
+    word-spacing: 2px;
+    font-family: Poppins;
+
+}
+
+
+.fire_main{
+    height: 570px;
+    border-radius: 120px / 10px 120px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+   
+}
+.fire_main_1{
+    width: 50%;
+    float: right;
+}
+.fire_img{
+    width: 100%;
+    height: 570px;
+    border-radius: 120px / 10px 100px;
+}
+.fire_content{
+    width: 50%;
+    float: left;
+    height: 425px;
+}
+.fire_content_p{
+    font-size: 20px;
+    word-spacing: 2px;
+    align-items: left;
+    justify-content: center;
+    padding-left: 20px;
+    font-family: Poppins;
+
+
+}
+
+/* @media (min-width:0px) and (max-width: 500px){
+    .earthquake_main,.fire_main,.landslide_main{
+        height: 860px;
+        width: 95%;
+        border-radius: 15px;
+        margin: 0px 17px 0px 17px;
+        display: block;
+    }
+    .earthquake_main_1,.cyclone_main_1,.fire_main_1,.floods_main_1,.landslide_main_1,.tsunami_main_1{
+        width: 100%;
+        float: none;
+    }
+    .tsunami_main{
+        height: 880px;
+        width: 95%;
+        border-radius: 15px;
+        margin: 0px 17px 0px 17px;
+        display: block;
+    }
+    .floods_main{
+        height: 800px;
+        width: 95%;
+        border-radius: 15px;
+        margin: 0px 17px 0px 17px;
+        display: block;
+
+    }
+    .cyclone_main{
+        height: 750px;
+        width: 95%;
+        border-radius: 15px;
+        margin: 0px 17px 0px 17px;
+        display: block;
+    }   
+     .earthquake_img,.cyclone_img,.fire_img,.floods_img,.landslide_img,.tsunami_img{
+        width: 100%;
+        height: 50%;
+        border-radius: 15px;
+    }
+    .cyclone_content,.earthquake_content,.fire_content,.floods_content,.landslide_content,.tsunami_content{
+        width:100%;
+        height:50%;
+        
+    }
+
+    .dobtn{
+        margin-left: 101px;
+        margin-top: 5px;
+    }
+} */
+
+@media (min-width:0px) and (max-width: 500px){
+    .earthquake_main{
+        height: 1000px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+    }
+    .fire_main{
+        height: 1200px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+    }
+    .landslide_main{
+        height: 1050px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+    }
+    .earthquake_main_1{
+        width: 100%;
+        float: none;
+    }
+    .cyclone_main_1{
+        width: 100%;
+        float: none;
+    }
+    .fire_main_1{
+        width: 100%;
+        float: none;
+    }
+    .floods_main_1{
+        width: 100%;
+        float: none;
+    }
+    .landslide_main_1{
+        width: 100%;
+        float: none;
+    }
+    .tsunami_main_1{
+        width: 100%;
+        float: none;
+    }
+    .tsunami_main{
+        height:1070px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+    }
+    .floods_main{
+        height: 1000px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+
+    }
+    .cyclone_main{
+        height: 980px;
+        width: 95%;
+        border-radius: 15px;
+        display: block;
+    }   
+     .earthquake_img,.cyclone_img,.fire_img,.floods_img,.landslide_img,.tsunami_img{
+        width: 100%;
+        height: 50%;
+        border-radius: 15px;
+    }
+    .cyclone_content{
+        width:100%;
+        
+        
+    }
+    .earthquake_content{
+        width:100%;
+        
+    }
+    .fire_content{
+        width:100%;
+        
+    }
+    .floods_content{
+        width:100%;
+       
+    }
+    .landslide_content{
+        width:100%;
+       
+    }
+    .tsunami_content{
+        width:100%;
+       
+    }
+
+    .dobtn{
+        margin-left: 101px;
+        margin-top: 5px;
+    }
+    
+}
+
+@media (min-width:500px) and (max-width:830px){
+    .earthquake_main{
+        height: 900px;
+    }
+
+    .earthquake_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .earthquake_content{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .earthquake_img{
+        width: 100%;
+    }
+
+    .cyclone_main{
+        height: 900px;
+    }
+
+    .cyclone_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .cyclone_content{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+
+    .cyclone_img{
+        width: 100%;
+    }
+
+    .fire_main{
+        height: 1000px;
+
+    }
+
+    .floods_main{
+        height: 900px;
+
+    }
+
+    .landslide_main{
+        height: 900px;
+
+    }
+
+    .tsunami_main{
+        height: 900px;
+
+    }
+
+    .floods_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .fire_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .landslide_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .tsunami_main_1{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .floods_content{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .fire_content{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .landslide_content{
+        display: block;
+        float: none;
+        width: 100%;
+
+    }
+
+    .tsunami_content{
+        display: block;
+        float: none;
+        width: 100%;
+        
+    }
+
+    .floods_img{
+        width: 100%;
+    }
+
+    .fire_img{
+        width: 100%;
+    }
+
+    .landslide_img{
+        width: 100%;
+    }
+
+    .tsunami_img{
+        width: 100%;
+    }
+    .dobtn{
+        position: relative;
+        top: -29px;
+    }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+
+    .earthquake_img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .earthquake_main_1{
+        width: 50%;
+    }
+
+    .earthquake_content{
+         width: 50%;
+    }
+
+    .earthquake_main{
+        height: 600px;
+    }
+    .tsunami_img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .tsunami_main_1{
+        width: 50%;
+    }
+
+    .tsunami_content{
+         width: 50%;
+    }
+
+    .tsunami_main{
+        height: 600px;
+    }
+
+    .fire_img{
+        width: 100%;
+        height: 650px;
+    }
+
+    .fire_main_1{
+        width: 50%;
+    }
+
+    .fire_content{
+         width: 50%;
+    }
+
+    .fire_main{
+        height: 650px;
+    }
+
+    .landslide_img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .landslide_main_1{
+        width: 50%;
+    }
+
+    .landslide_content{
+         width: 50%;
+    }
+
+    .landslide_main{
+        height: 600px;
+    }
+
+    .cyclone_img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .cyclone_main_1{
+        width: 50%;
+    }
+
+    .cyclone_content{
+         width: 50%;
+    }
+
+    .cyclone_main{
+        height: 600px;
+    }
+
+    .floods_img{
+        width: 100%;
+        height: 600px;
+    }
+
+    .floods_main_1{
+        width: 50%;
+    }
+
+    .floods_content{
+         width: 50%;
+    }
+
+    .floods_main{
+        height: 600px;
+    }
+
+    .dobtn{
+        margin-top: -37px;
+    margin-left: 65px;
+    }
+
+}

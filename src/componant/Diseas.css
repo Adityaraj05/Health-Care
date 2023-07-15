@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.main-flip{
+  width: 100%;
+}
+
+.container--1{
+  border: 4px solid white;
+  display: flex;
+  justify-content: space-between
+}
+
+.main-flip .a--1{
+  color: black;
+  text-decoration: none;
+}
+
+.card-front-1{
+  height: 100%;
+  width: 100%;
+  background:url(./all-types.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  background-repeat: no-repeat;
+  border: 8px solid #f1ccc8;
+  border-radius: 15px;
+}
+
+.card-front-1 p{
+  color: #1978a5;
+  padding-left: 43%;
+  padding-top: 26%;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.card-front-2{
+  height: 100%;
+  width: 100%;
+  background:url(./all-types.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  border: 8px solid #f1ccc8;
+  border-radius: 15px;
+}
+
+.card-front-3{
+  height: 100%;
+  width: 100%;
+  background:url(./all-types.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  border: 8px solid #f1ccc8;
+  border-radius: 15px;
+}
+
+.card-front-4{
+  height: 100%;
+  width: 100%;
+  background:url(./all-types.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+  transform: rotateX(0deg);
+  transition: 0.5s;
+  border: 8px solid #f1ccc8;
+  border-radius: 15px;
+}
+
+.card-front-2 p{
+  color: #1978a5;
+  padding-left: 44%;
+  padding-top: 26%;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.card-front-3 p{
+  color: #1978a5;
+  padding-left: 62%;
+  padding-top: 20%;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.card-front-4 p{
+  color: #1978a5;
+  padding-left: 47%;
+  padding-top: 25%;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+
+.card-back{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(151, 205, 243);
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.7s;
+  color: black;
+  text-align: center;
+}
+
+.card--1:hover .card-front-1{
+  transform: rotateX(-180deg);
+}
+
+.card--1:hover .card-front-2{
+  transform: rotateX(-180deg);
+}
+
+.card--1:hover .card-front-3{
+  transform: rotateX(-180deg);
+}
+
+.card--1:hover .card-front-4{
+  transform: rotateX(-180deg);
+}
+.card--1:hover .card-back{
+  transform: rotateX(0deg);
+}
+.card-back .h2--1{
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px 0px 30px 0px;
+  padding: 15px 0px;
+  font-size: 30px;
+}
+.card-back .h2--1 .span--1{
+  font-size: 20px;
+}
+.card-back .content--1 .p--1{
+  margin-top: 20px;
+  font-size: 0.95rem;
+  text-align: justify;
+  padding: 0px 40px;
+}
+.card-back .social-icons .a--1{
+  font-size: 20px;
+  margin: 0px 6px;
+  transition: 0.5s;
+}
+
+.card--1{
+  height: 290px;
+  width: 24%;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  transition: 0.5s;
+}
+
+@media (min-width:0px) and (max-width:500px){
+  .container--1{
+    display: block;
+  }
+
+  .card--1{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width:500px) and (max-width:830px){
+
+  .container--1{
+    display: block;
+  }
+
+  .card--1{
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+
+  .container--1{
+    display: block;
+  }
+
+  .card--1{
+    width: 60%;
+    margin-left: 15%;
+    margin-top: 30px;
+  }
+
+  .card-front-1 p {
+    padding-left: 52%;
+    padding-top: 12%;
+  }
+
+  .card-front-2 p {
+    padding-left: 51%;
+    padding-top: 14%;
+  }
+
+  .card-front-4 p {
+    padding-left: 54%;
+    padding-top: 14%;
+  }
+}
+
+@media (min-width:1024px) and (max-width:1205px){
+
+  .card-front-1 p {
+    padding-left: 33%;
+    font-size: 30px;
+}
+
+.card-front-2 p {
+  padding-left: 35%;
+  font-size: 30px;
+}
+
+.card-front-3 p {
+  padding-left: 50%;
+  font-size: 30px;
+}
+
+.card-front-4 p {
+  padding-left: 40%;
+  font-size: 30px;
+}
+}

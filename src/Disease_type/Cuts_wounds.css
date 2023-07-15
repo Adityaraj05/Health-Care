@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.cut_main{
+    height: 675px;
+    width: 100%;
+    margin-top: 200px;
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+}
+.card_bits{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: .5s;
+    top: 15%;
+    left: 20%;
+}
+.card_bits:hover{
+    height: 450px;
+}
+.imgbx_bits{
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    background: goldenrod;
+    top: 20px;
+    border-radius: 12px;
+    transition:0.5s;
+    overflow: hidden;
+}
+.card_bits:hover .imgbx_bits{
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+.card_bits .imgbx_bits .img_bits{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_bits .bits_content_main{
+    position: absolute;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    top: 252px;
+    height: 35px;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: Poppins;
+
+}
+
+.card_bits:hover .bits_content_main{
+    height: 285px;
+    top: 130px;
+}
+
+.card_bits .bits_content_main .bits_h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color:#009688;
+}
+.card_bits .bits_content_main .bits_p{
+    color: #333;
+    font-size: 1.05em;
+}
+.card_bits .bits_content_main .bits_a{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 12px 25px;
+    background:#009688 ;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    border: 8px;
+}
+
+.bits_part_1{
+    width: 50%;
+    height: 675px;  
+    display: inline-block;
+    border-right: 4px solid #b0cbc9;
+}
+
+.bits_part_2{
+    width: 50%;
+    height: 675px;
+    display: inline-block;
+    position: relative;
+}
+
+.bits_solution{
+    position: absolute;
+    font-size: 23px;
+    word-spacing: 6px;
+    margin-top: 65px;
+    margin-left: 17px;
+    width: 95%;
+}
+
+.bits_solution_headre{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    background-color: #cab93b;
+    height: 45px;
+}
+.bits_solution_headre_h1{
+    position: absolute;
+    margin-top: 23px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bits_solution_headre_h1_content{
+    font-size: 60px;
+}
+.main_heading_cuts{
+font-size: 80px;
+display: flex;
+justify-content: center;
+position: relative;
+top: 50px;
+}
+
+.youtube{
+    color: darkblue;
+}
+@media (min-width:0px) and (max-width:500px) {
+    .cut_main{
+        height:1635px;
+        width: 94%;
+        margin-left: 14px;
+    }
+
+    .card_bits{
+        width: 320px;
+    }
+}
+
+@media (min-width:500px) and (max-width:830px){
+    .cut_main{
+        height: 1250px;
+    }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+    .cut_main{
+        height: 1250px;
+    }
+}

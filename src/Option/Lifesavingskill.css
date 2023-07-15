@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+section{
+    width:100%;
+    min-height:420px;
+}
+.wave{
+    position:relative;
+    background:linear-gradient(90deg,rgb(231, 100, 100),#F44336);
+}
+.wave:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:247px;
+    background-image: url('../Footeritem/wave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.disclaimer{
+    color: white;
+    margin-left: 50px;
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+}
+.list{
+    font-size: 20px;
+    text-align: left;
+    word-spacing: 5px;
+    padding: 10px;
+    font-weight: 500;
+    margin: 10px;
+}
+.heading{
+    color: rgb(231, 100, 100);
+    font-weight: 700;
+}
+
+
+@media (min-width:450px) and (max-width: 500px){
+    .heading{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width:00px) and (max-width:450px){
+    .heading{
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    .disclaimer{
+        margin-left: -1px;
+    }
+}
+
+@media (min-width:500px) and (max-width:1200px){
+    .heading{
+        font-size: 41px;
+    }
+
+    .disclaimer{
+        margin-left: -4%;
+    }
+}

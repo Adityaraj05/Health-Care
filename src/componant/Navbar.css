@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.logo_img{
+    height: 80px;
+    width: 150px;
+
+} 
+.option--1{
+    font-size: 18px;
+    margin-top: 4px;
+    padding: 5px;
+}
+
+.navitem{
+    font-size: 21px;
+margin-right: 40px;
+font-family: Poppins;
+}
+@media (min-width:450px) and (max-width:550px){
+    .logo{
+        padding-right: 0px;
+    }
+}

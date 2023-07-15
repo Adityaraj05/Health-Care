@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.earthquake{
+    position :relative;
+    width:100%;
+    height:50vh;
+    background:linear-gradient( rgba(0,0,0,0.5) , rgba(0,0,0,0.5 )), url('../Option/earthquake5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.earthquake:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:200px;
+}
+.do_dont_header{
+    color: white;
+    font-size: 75px;
+    font-weight: 700;
+    left:33%;
+    position: absolute;
+    top: 32%;
+}
+
+.dos_donts_back{
+    background:linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    color: white;
+}
+
+.earthquakes_main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+/* .dos_earthquake
+{
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+    width: 45%;
+    height: 700px;
+    display: inline-block;
+}
+
+
+.earthquakes_main{
+    width: 100%;
+    height: 700px;
+
+}
+
+.dos_main{
+    height: 209px;
+    width: 20%;
+    border-radius: 10px 100px / 120px;
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    color: white;
+    position: absolute;
+    
+}
+
+.dos{
+    position: absolute;
+    font-size: 57px;
+    font-weight: 700;
+    left: 27%;
+    top: 30%;
+}
+
+.dos_content_main{
+    width: 42.5%;
+    height: 481px;
+    position: absolute;
+    top: 101%;
+}
+.dont_content_main{
+    width: 42.5%;
+    height: 481px;
+    position: absolute;
+    top: 99%;
+}
+
+.indoor_main{
+    width: 50%;
+    height: 490px;
+    position: absolute;
+
+}
+
+.indoor_header{
+   text-align: center;
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+}
+
+.indoor_content{
+    font-size: 24px;
+    margin-top: 20px;
+    font-family:Alkatra ;
+} */
+
+/* .outdoor_main{
+    width: 50%;
+    height: 481px;
+    position: absolute;
+    left: 50%;
+}
+.outdoor_header{
+    text-align: center;
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+}
+.outdoor_content{
+    font-size: 24px;
+    margin-top: 20px;
+    font-family:Alkatra ;
+} */
+
+/* ################2################# */
+.dos{
+   font-size: 57px;
+   font-weight: 700;
+   text-align: center;
+   margin-top: 10px;
+   color: white;
+}
+
+.dos_main{
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    border-radius: 10px 100px / 120px; 
+    display: inline-block;
+    width: 170px;
+    height: 100px;
+}
+
+.dos_earthquake{
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+    display: inline-block;
+    width: 45%;
+}
+
+.dos_content_main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.indoor_main{
+    width: 48%;
+}
+
+.outdoor_main{
+    width: 48%;
+}
+
+.indoor_header{
+    margin-left: 30px;
+    color:rgb(69 5 115) ;
+   font-family: Poppins;
+}
+
+.indoor_content{
+    font-family:Alkatra ;
+    font-size: 24px;
+}
+
+.outdoor_header{
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+   margin-left: 28px;
+   margin-top: -13px;
+
+}
+.outdoor_content{
+    font-size: 24px;
+    font-family:Alkatra ;
+}
+
+/* ##########################3#################### */
+
+/* .dos{
+    font-size: 57px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+ }
+ 
+ .dos_main{
+    height: 100px;
+    background-color: #25265e;
+}
+ 
+ .dos_earthquake{
+    display: inline-block;
+    background-color: #e8c273;
+    width: 50%;
+    border-right: 2px solid black;
+ }
+ 
+ .dos_content_main{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .indoor_main{
+     width: 48%;
+ }
+ 
+ .outdoor_main{
+     width: 48%;
+ }
+ 
+ .indoor_header{
+     margin-left: 30px;
+     color:rgb(69 5 115) ;
+    font-family: Poppins;
+ }
+ 
+ .indoor_content{
+     font-family:Alkatra ;
+     font-size: 24px;
+ }
+ 
+ .outdoor_header{
+    color:rgb(69 5 115) ;
+    font-family: Poppins;
+    margin-left: 28px;
+    margin-top: -13px;
+ 
+ }
+ .outdoor_content{
+     font-size: 24px;
+     font-family:Alkatra ;
+ }  */
+
+/* .dont_header{
+    position: absolute;
+    left: 17%;
+    top: 31%;
+    font-size: 57px;
+    font-weight: 700;
+}
+
+.dos_earthquake_1
+{
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+    width: 50%;
+    height: 700px;
+    display: inline-block;
+}
+
+.dos_main_1{
+    height: 209px;
+    width: 20%;
+    border-radius: 10px 100px / 120px;
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    color: white;
+    position: absolute;
+    
+}
+.dont_header_1{
+    position: absolute;
+    left: 17%;
+    top: 31%;
+    font-size: 57px;
+    font-weight: 700;
+}
+.dont_content_main_1{
+    width: 42.5%;
+    height: 481px;
+    position: absolute;
+    top: 101%;
+}
+.indoor_main_1{
+    width: 50%;
+    height: 481px;
+    position: absolute;
+}
+.indoor_header_1{
+    text-align: center;
+    color:rgb(69 5 115) ;
+    font-family: Poppins;
+ }
+ 
+ .indoor_content_1{
+     font-size: 24px;
+     margin-top: 20px;
+     font-family:Alkatra ;
+
+ }
+ .outdoor_main_1{
+    width: 50%;
+    height: 481px;
+    position: absolute;
+    left: 50%;
+}
+.outdoor_header_1{
+    text-align: center;
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+}
+.outdoor_content_1{
+    font-size: 24px;
+    margin-top: 20px;
+    font-family:Alkatra ;
+} */
+
+/* ############################2####################### */
+.dont_header_1{
+    font-size: 57px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.dos_main_1{
+    border-radius: 10px 100px / 120px;
+    background: linear-gradient(rgb(195 110 175), rgb(69 5 115));
+    color: white;
+    width: 270px;
+    height: 100px;
+}
+
+.dos_earthquake_1{
+    box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+    display: inline-block;
+    width: 45%;
+}
+
+.indoor_main_1{
+    width: 50%;
+}
+
+.outdoor_main_1{
+    width: 50%;
+}
+
+.dont_content_main_1{
+    display: flex;
+}
+
+.indoor_header_1{
+    padding-left: 30px;
+    color:rgb(69 5 115) ;
+    font-family: Poppins;
+    
+ }
+ 
+ .indoor_content_1{
+     font-size: 24px;
+     font-family:Alkatra ;
+
+ }
+
+.outdoor_header_1{
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+   padding-left: 27px;
+    margin-top: -7px;
+}
+.outdoor_content_1{
+    font-size: 24px;
+    font-family:Alkatra ;
+} 
+
+.place-box{
+    border: 0.1px solid rgb(189, 187, 187);
+    width: 190px;
+    height: 63px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.place-box:hover{
+    box-shadow: 0px 8px 12px rgba(2,30,84,.06)
+} 
+
+.button_group{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check-other-disaster{
+    width: 42%;
+    margin-bottom: 63px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.disaster-2{
+    display: flex;
+    justify-content:space-around;
+    background-color: #d1e7ff;
+    margin-top: 60px;
+}
+
+.disaster-solution-video{
+    width:40%; 
+    height:310px;
+    margin-top:38px
+}
+/* ###############################3############################ */
+
+/* .dont_header_1{
+    font-size: 57px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.dos_main_1{
+    height: 100px;
+    background-color: #25265e;
+}
+
+.dos_earthquake_1{
+    display: inline-block;
+    background-color: #e8c273;
+    width: 50%;
+}
+
+.indoor_main_1{
+    width: 50%;
+}
+
+.outdoor_main_1{
+    width: 50%;
+}
+
+.dont_content_main_1{
+    display: flex;
+}
+
+.indoor_header_1{
+    padding-left: 30px;
+    color:rgb(69 5 115) ;
+    font-family: Poppins;
+    
+ }
+ 
+ .indoor_content_1{
+     font-size: 24px;
+     font-family:Alkatra ;
+
+ }
+
+.outdoor_header_1{
+   color:rgb(69 5 115) ;
+   font-family: Poppins;
+   padding-left: 27px;
+    margin-top: -7px;
+}
+.outdoor_content_1{
+    font-size: 24px;
+    font-family:Alkatra ;
+} 
+
+.place-box{
+    border: 0.1px solid rgb(189, 187, 187);
+    width: 190px;
+    height: 63px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.place-box:hover{
+    box-shadow: 0px 8px 12px rgba(2,30,84,.06)
+} 
+
+.button_group{
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.check-other{
+    width: 42%;
+    margin-bottom: 63px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 34px;
+}
+
+.disaster-2{
+    display: flex;
+    justify-content:space-around;
+    background-color: #d1e7ff;
+    margin-top: 60px;
+}
+
+@media (min-width:450px) and (max-width:500px) {
+
+    .do_dont_header{
+        left: 8%;
+        font-size: 60px;
+    }
+    .dos_earthquake{
+        height: 730px;
+        display: block;
+        width: 95%;
+        margin: 15px 15px;
+    }
+    .dos_main{
+        width: 70%;
+        height: 150px;
+        left: 14%;
+        
+    }
+    .dos{
+        margin-top: -7px;
+    }
+    .dos_content_main{
+        width: 94%;
+        
+    }
+    .indoor_main{
+        width: 50%;
+        height: 1000px;
+    }
+    .indoor_main .indoor_header .indoor_content{
+        width: 100%;
+        font-size: 15px;
+    }
+    .indoor_header{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .outdoor_header{
+        width: 100%;
+        margin-top: 19px;
+    }
+    .dos_earthquake_1{
+        width: 95%;
+        height: 700px;
+        margin: 15px 15px;
+    }
+    .earthquakes_main{
+        height: 1500px;
+    }
+
+    .dos_main_1{
+        width: 70%;
+        height: 150px;
+        left: 14%;
+    }
+    .dont_header_1{
+    margin-top: -10px;
+    }
+    .dont_content_main_1{
+        width: 87%;
+        height: 481px;
+        position: absolute;
+        top: 220%;
+       
+    }
+    /* .indoor_content{
+        width: 100%;
+        height: 1000px;
+    } */
+
+
+/* @media (min-width:0px) and (max-width:450px){
+    .do_dont_header{
+        left: 2%;
+        font-size: 60px;
+    }
+    .dos_earthquake{
+        height: 895px;
+        display: block;
+        width: 95%;
+        margin: 15px 15px;
+    }
+    .dos_main{
+        width: 70%;
+        height: 150px;
+        left: 14%;
+        
+    }
+    .dos{
+        margin-top: -7px;
+    }
+    .dos_content_main{
+        width: 94%;
+        top: 81%;
+        
+    }
+    .indoor_main{
+        width: 50%;
+        height: 1000px;
+    }
+    .indoor_main .indoor_header .indoor_content{
+        width: 100%;
+        font-size: 15px;
+    }
+    .indoor_header{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .outdoor_header{
+        width: 100%;
+        margin-top: 19px;
+    }
+    .dos_earthquake_1{
+        width: 95%;
+        height: 875px;
+        margin: 15px 15px;
+    }
+    .earthquakes_main{
+        height: 1820px;
+    }
+
+    .dos_main_1{
+        width: 70%;
+        height: 150px;
+        left: 14%;
+    }
+    .dont_header_1{
+    margin-top: -10px;
+    }
+    .dont_content_main_1{
+        width: 87%;
+        height: 481px;
+        position: absolute;
+        top: 185%;
+       
+    }
+}
+
+@media (min-width:500px) and (max-width:1200px){
+    .earthquakes_main{
+        height: 1780px;
+    }
+
+    .dos_earthquake{
+        height: 820px;
+        display: block;
+        width: 100%;
+        margin-top: 10%;
+        margin-bottom:11%;
+    }
+
+    .dos_earthquake_1{
+        height: 45%;
+        display: block;
+        width: 100%;
+    }
+
+    .dos_main{
+        width: 40%;
+        left: 29%;
+    }
+
+    .dos_content_main{
+        display: block;
+        width: 100%;
+        position: relative;
+        top: 31%;
+    }
+
+    .indoor_main{
+        width: 50%;
+    }
+
+    .outdoor_main{
+        width: 50%;
+
+    }
+
+    .dos_main_1{
+        width: 35%;
+        left: 27%;
+    }
+
+    .dont_content_main_1{
+        display: block;
+        width: 100%;
+        position: relative;
+        top: 31%;
+    }
+
+    .indoor_main_1{
+        width: 50%;
+    }
+
+    .outdoor_main_1{
+        width: 50%;
+    }
+
+    .do_dont_header{
+        left: 33%;
+    }
+
+} */
+
+@media (min-width:00px) and (max-width:500px) {
+
+.do_dont_header{
+    color: white;
+    font-size: 50px;
+    left:5%;
+    position: absolute;
+    top: 32%;
+}
+
+   
+.earthquakes_main{
+    display: block;
+}
+
+
+.dos_earthquake{
+    display: block;
+    width: 100%;
+}
+
+.dos_earthquake_1{
+    margin-top: 70px;
+    display: block;
+    width: 100%;
+}
+
+.disaster-2{
+    display: block;
+}
+
+
+.check-other-disaster{
+    width: 100%;
+}
+
+.disaster-solution-video{
+    width: 92%;
+    margin-left: 4%;}
+
+}
+
+.place-box{
+    width: 156px;
+    height: 56px;
+}
+
+@media (min-width: 500px) and (max-width:830px){
+    .do_dont_header{
+        color: white;
+        font-size: 68px;
+        left:14%;
+        position: absolute;
+        top: 32%;
+    }
+
+    .earthquakes_main{
+        display: block;
+    }
+
+    .dos_earthquake{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .dos_earthquake_1{
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .disaster-2{
+        display: block;
+    }
+
+    .check-other-disaster{
+        width: 100%;
+    }
+    
+    .disaster-solution-video{
+        width: 92%;
+        height: 100%;
+        margin-left: 4%;
+        padding-bottom: 4%;
+    }
+    
+    
+    .place-box{
+        width: 250px;
+        height: 70px;
+    }
+
+
+}
+
+@media (min-width:830px) and (max-width:1024px){
+    .disaster-solution-video{
+        width: 50%;
+        margin-top: 105px;
+    }
+
+    .place-box{
+        width: 136px;
+        height: 57px;
+    }
+
+    .do_dont_header{
+        left: 19%;
+    }
+
+    .disaster-2{
+        width: 100%;
+    }
+
+    .disaster-solution-video{
+        height: 100%;
+        margin-bottom: 4%;
+        margin-top: 13%;
+    }
+}

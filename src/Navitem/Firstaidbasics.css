@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
+
+.Firstaidbasics{
+    position :relative;
+    width:100%;
+    height:50vh;
+    background:linear-gradient(45deg,rgb(195 110 175), rgb(69 5 115));
+}
+.Firstaidbasics:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+    height:200px;
+    background:#fff;
+    clip-path:polygon(100% 0,0 100%,100% 100%);
+}
+.Firstaidbasics_header{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    left:42%;
+    position: absolute;
+    top: 20%;
+}
+.firstaidbasics_content{
+box-shadow: 0 14px 10px rgba(0,0,0,0.50), 0 10px 20px rgba(0,0,0,0.16);
+width: 100%;
+height: 100%;
+}
+.firstaidbasics_heading{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: rgb(69 5 115);
+}
+.firstaidbasics_p{
+    font-size: 20px;
+    padding-left: 20px;
+    word-spacing: 5px;
+}
+.Firstaidbasics_strong{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+@media (min-width:0px) and (max-width: 500px){
+   .Firstaidbasics_header{
+    font-size: 50px;
+    left: 110px;
+   }
+   .firstaidbasics_content{
+    height: 100%;
+   }
+}
+
+@media (min-width:500px) and (max-width:830px){
+
+    .Firstaidbasics_header{
+        font-size: 65px;
+    }
+    .firstaidbasics_content{
+        height: 100%;
+    }
+}
