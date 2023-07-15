@@ -264,7 +264,7 @@ color: white;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #222;
+    background: #042743;
 }
 .contact .content{
     max-width: 800px;
@@ -339,7 +339,7 @@ color: white;
     margin-top:50px;
     font-weight: 500;
     padding-left:10px;
-    border-left: 50px solid #e91e63;
+    border-left: 50px solid #cc7995;
     line-height: 1em;
 }
 .sci{
