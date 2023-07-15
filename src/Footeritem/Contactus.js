@@ -68,7 +68,7 @@ export default function Contactus() {
               <span>Type your Queries...</span>
             </div>
             <div className="inputBox">
-              <input type="submit" value = "send" />
+              <input type="submit" name="" value = "send" />
             
             </div>
             </form>

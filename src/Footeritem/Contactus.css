@@ -314,6 +314,7 @@ color: white;
     justify-content: center;
     align-items: center;
     font-size:1.75em;
+    border-radius: 50%;
     transition: 0.5s;
 
 }
@@ -382,6 +383,7 @@ color: white;
     margin-top:20px;
 
 }
+
 .container-1 .contactForm .inputBox input,
 .container-1 .contactForm .inputBox textarea {
     width:100px;
