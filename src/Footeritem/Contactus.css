@@ -1,6 +1,12 @@
+/* *{
+    margin: 0;
+    padding:0;
+    box-sizing: body-box;
+    font-family: 'Poppins', sans-serif;
+} */
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
 
-.getintouch_main{
+/* .getintouch_main{
     height: 700px;
     background-color: red;
     position: relative;
@@ -243,4 +249,196 @@ color: white;
     }
 
     
+} */
+
+
+
+
+
+/* ..................... */
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding:50px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #222;
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+.contact .content h2{
+    font-size: 3em;
+    color:#fff;
+    font-weight: 500;
+    text-align:center;
+
+}
+.contact .content p{
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 300;
+    text-align:center;
+
+}
+.container-1{
+    width:100%;
+   
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap :50px;
+    margin-top: 30px;
+}
+.container-1 .contactInfo{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+   
+} 
+.container-1 .contactInfo .box{
+    position:relative;
+    padding: 20px, 0;
+    display:flex;
+    cursor: pointer;
+}
+.container-1 .contactInfo .box .icon{
+    min-width: 60px;
+    height:60px;
+    background:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1.75em;
+    transition: 0.5s;
+
+}
+.container-1 .contactInfo .box:hover .icon{
+    background:#00bcd4;
+    color:#fff;
+}
+.container-1 .contactInfo .box .text{ 
+    display:flex;
+    flex-direction: column;
+    margin-left:20px;
+    font-size: 1.1em;
+    color:#fff;
+    font-weight: 300;
+}
+.container-1 .contactInfo .box .text h3{
+    font-weight:500;
+    color:#00bcd4;
+
+}
+.container-1 .contactInfo .txt{
+    color:#fff;
+    margin-top:50px;
+    font-weight: 500;
+    padding-left:10px;
+    border-left: 50px solid #e91e63;
+    line-height: 1em;
+}
+.sci{
+    position:relative;
+    display:flex;
+    gap : 30px;
+    margin: 20px 0;
+}
+.sci li{
+    list-style: none;;
+}
+.sci li a{
+    color:#fff;
+    font-size:2em;
+    transition:0.5s;
+
+}
+.sci li a:hover{
+    color:#00bcd4;
+}
+
+
+.container-1 .contactForm{
+  position: relative;
+  width:40%;
+  background:#fff;
+  min-height: 100px;
+  padding:60px;
+
+
+} 
+.container-1 .contactForm h2{
+    font-size: 2em;
+    color: #333;
+    font-weight:500;
+}
+.container-1 .contactForm .inputBox {
+    position:relative;
+    width:100px;
+    margin-top:20px;
+
+}
+.container-1 .contactForm .inputBox input,
+.container-1 .contactForm .inputBox textarea {
+    width:100px;
+    padding:5px 0;
+    font-size:1.1em;
+    margin:10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize:none;
+}
+.container-1 .contactForm .inputBox span{
+    position:absolute;
+    left:0;
+    pointer-events: none;
+    padding:5px, 0;
+    margin:10px 0;
+    font-size: 1.1em;
+    color:#666;
+    transition:0.5s;
+
+}
+.container-1 .contactForm .inputBox input:focus ~ span, .container-1 .contactForm .inputBox textarea:focus ~ span,
+.container-1 .contactForm .inputBox input:valid ~ span, .container-1 .contactForm .inputBox textarea:valid ~ span{
+    color:#e91e63;
+    font-size:0.9em;
+    transform:translateY(-20px);
+
+}
+.container-1 .contactForm .inputBox input[type="submit"]{
+    width:100px;
+    background:#00bcd4;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    padding:10px;
+    font-size:1.1em;
+    font-weight: 500;
+
+}
+
+/* lets make it responsive  */
+
+@media (max-width: 991px){
+    .contact{
+        padding:50px;
+    }
+    .container-1{
+        flex-direction: column;
+    }
+    .container-1 .contactInfo,
+    .container-1 .contactForm{
+        width:100px;
+
+    }
+    .container-1 .contactForm {
+        padding: 50px 30px;
+    }
+
 }
