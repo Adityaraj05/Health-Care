@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react'
-import { useState } from 'react'
+
 import Carousel from './Carousel'
 import Content from './Content'
 import Content1 from './Content1'

@@ -1,8 +1,14 @@
+*{
+    margin: 0;
+    padding:0
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;700&family=Poppins:wght@400;700&family=Tangerine:wght@400;700&display=swap');
 
 .logo_img{
     height: 80px;
     width: 150px;
+    
 
 } 
 .option--1{
@@ -13,8 +19,25 @@
 
 .navitem{
     font-size: 21px;
-margin-right: 40px;
-font-family: Poppins;
+    margin-right: 40px;
+    font-family: Poppins;
+    position:relative;
+}
+.navitem:before{
+ content:"";
+ position:absolute;
+ left:0;
+ top:90%;
+ width:0%;
+ height:3px;
+ background-color: #000;
+ transition:all 0.5s linear;
+}
+.navitem:hover:before{
+    width:100%;
+    background-color: #6c5ce7;
+    
+
 }
 @media (min-width:450px) and (max-width:550px){
     .logo{

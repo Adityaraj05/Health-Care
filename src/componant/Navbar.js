@@ -28,7 +28,7 @@ export default function Navbar() {
     }
   return (
     
-       <div className='container mt-4 mb-4'  >
+       <div className='container mt-4 mb-4 '  >
       <div className='nav1'>
         <nav className="navbar navbar-expand-lg bg-light navbar mt-2 navdefault " >
   <div className="container-fluid"  >
@@ -45,7 +45,7 @@ export default function Navbar() {
         <li className="nav-item">
           <Link className="nav-link active navitem"  aria-current="page"  to="/">{t('home_nav')}</Link>
         </li>
-    
+       
         <li className="nav-item">
           <Link className="nav-link active navitem"  to="/Disease">{t('disease_nav')}</Link>
         </li>
