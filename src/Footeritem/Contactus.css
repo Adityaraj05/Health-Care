@@ -379,14 +379,14 @@ color: white;
 }
 .container-1 .contactForm .inputBox {
     position:relative;
-    width:100px;
+    width:1000px;
     margin-top:20px;
 
 }
 
 .container-1 .contactForm .inputBox input,
 .container-1 .contactForm .inputBox textarea {
-    width:100px;
+    width:400px;
     padding:5px 0;
     font-size:1.1em;
     margin:10px 0;
