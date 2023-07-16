@@ -427,7 +427,7 @@ color: white;
 
 /* lets make it responsive  */
 
-@media (max-width: 991px){
+/* @media (max-width: 991px){
     .contact{
         padding:50px;
     }
@@ -449,4 +449,157 @@ color: white;
         width:200px;
     }
 
+} */
+
+
+/* ....~ */
+@media (min-width:0px) and (max-width:500px){
+
+    .contact{
+        padding: 50px 50px;
+    }
+
+    .contact .content h2 {
+        font-size: 50px;
+    }
+  
+    .contact .content p {
+        font-size: 20px;
+    }
+
+    .container-1{
+        display: block;
+    }
+
+    .container-1 .contactInfo {
+        width: 100%;
+        padding: 100px 0px;
+    }
+
+    .container-1 .contactForm .inputBox input,
+.container-1 .contactForm .inputBox textarea {
+        width: 20%;
+        padding: 40px;
+    }
 }
+
+@media (min-width:500px) and (max-width:830px){
+
+    .contact{
+        padding: 50px 100px;
+    }
+
+    .contact .content h2 {
+        font-size: 4em;
+    }
+
+    .container-1{
+        display: block;
+    }
+
+    .container-1 .contactInfo {
+        width: 100%;
+        padding: 10% 0% 10% 4%;
+
+    }
+
+    .container-1 .contactForm {
+        width: 100%;
+    }
+}
+
+@media (min-width:830px) and (max-width:1024px){
+      
+    .contact{
+        padding: 50px 100px;
+    }
+
+    .contact .content h2 {
+        font-size: 4em;
+    }
+
+    .container-1{
+        display: block;
+    }
+
+    .container-1 .contactInfo {
+        width: 100%;
+        
+
+    }
+
+    .container-1 .contactForm .inputBox input,
+.container-1 .contactForm .inputBox textarea {
+        width: 270px;
+    }
+    
+}
+
+
+/* .footer{
+   
+    position:relative;
+    width:auto;
+    height:auto;
+    padding:50px 100px;
+    background: #111;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+
+}
+.container-grid{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+.container-grid .f-about{
+    width: 40%;
+
+}
+.container-grid .f-about h3{
+    position:relative;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom:15px;
+    margin-top: 12px;
+
+}
+.container-grid .f-about h3:before{
+    content:"";
+    position: absolute;
+    bottom:-5px;
+    Left:0;
+    width:50px;
+    height:2px;
+    background:#f00;
+}
+.container-grid .f-about p{
+    color:#999;
+}
+.f-links{
+    margin-top:5px;
+    display:flex;
+
+}
+.f-links h3{
+    position:relative;
+    color:#fff;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+.f-links li span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    background:#222;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-right:10px;
+    text-decoration:none;
+    border-radius:4px;
+
+} */
