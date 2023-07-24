@@ -34,7 +34,7 @@ export default function Carouseal_2() {
         <button type="button" class="btn btn-outline-success" onClick={()=>{
           cancel({text:text})
         }}>Stop</button>
-        </div>
+         </div>
       </ul>
      </div>
       <div><Footer/></div>
