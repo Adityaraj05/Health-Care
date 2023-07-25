@@ -10,6 +10,7 @@ export default function Floods() {
 
   const text1="DONT'S: Don't try to drive or walk through floodwaters, as they can be deeper and stronger than they appear. :Don't touch electrical equipment or appliances if you are standing in water. :Don't stay in low-lying areas or near bodies of water during a flood. :Don't drink floodwater, as it can be contaminated with bacteria and other harmful substances. :Don't return home until authorities have confirmed that it is safe to do so.";
   return (
+    // this is main div
     <div>
     <div><Navbar/></div>
     <div className='container' style={{width:"100%"}}> 
@@ -18,6 +19,7 @@ export default function Floods() {
       <div className='container main_flood'>
         <div className='main_flood_1' >
         <div className='main_flood_2' >
+        
               <div >
                 <h1 className='main_flood_heading' >DO'S</h1>
               </div>
