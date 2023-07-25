@@ -8,7 +8,7 @@ export default function Floods() {
   const { speak,cancel } = useSpeechSynthesis();
   const text = " DO'S: Move to higher ground or an elevated area if possible. :Listen to local news or weather reports for updates and evacuation notices. :Have an emergency kit prepared with essentials like food, water, and first-aid supplies. :Turn off all electrical appliances and gas supply before evacuating. :Follow the instructions of emergency personnel and authorities."
 
-  const text1="DONT'S: Don't try to drive or walk through floodwaters, as they can be deeper and stronger than they appear. :Don't touch electrical equipment or appliances if you are standing in water. :Don't stay in low-lying areas or near bodies of water during a flood. :Don't drink floodwater, as it can be contaminated with bacteria and other harmful substances. :Don't return home until authorities have confirmed that it is safe to do so.";
+  const text1= "DONT'S: Don't try to drive or walk through floodwaters, as they can be deeper and stronger than they appear. :Don't touch electrical equipment or appliances if you are standing in water. :Don't stay in low-lying areas or near bodies of water during a flood. :Don't drink floodwater, as it can be contaminated with bacteria and other harmful substances. :Don't return home until authorities have confirmed that it is safe to do so.";
   return (
     // this is main div
     <div>
@@ -37,7 +37,7 @@ export default function Floods() {
           speak({text:text})
         }}>Speak</button>
         <button type="button" class="btn btn-outline-success" onClick={()=>{
-          cancel({text:text})
+          cancel({text:text1})
         }}>Stop</button>
         </div>
         </div>
@@ -120,6 +120,7 @@ export default function Floods() {
     </div>
       <div><Footer/></div>
     </div>
-    
+   
+   
   )
 }
