@@ -120,5 +120,6 @@ export default function Floods() {
     </div>
       <div><Footer/></div>
     </div>
+    
   )
 }
